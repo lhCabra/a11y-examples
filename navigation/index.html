@@ -11,15 +11,25 @@
     <main>
       <h1>Navigation & Tabs</h1>
       <div class="container">
-        <form action="">
-          <p>First Name:</p>
-          <input type="text" />
-          <p>Last Name:</p>
-          <input type="text" />
-          <div onclick="printMessage()" class="button">Submit</div>
+        <form>
+          <div>
+          <label for="First Name">
+            First Name
+          </label>
+            <input type="text" name="First Name" id="First Name"/>
+          </div>
+          <div>
+            <label for="Last Name">
+              Last Name
+            </label>
+              <input type="text" name="First Name" id="Last Name"/>
+            </div>
+            <div>
+          <button onclick="printMessage()" class="button" type="submit">Submit</button>
+        </div>
         </form>
-        <img src="../assets/images/dog.jpeg" />
-      </div>
+         <img tabindex="0" src="../assets/images/dog.jpeg" alt="Imagen de cachorro Golden Retriver"/>
+        </div>  
     </main>
     <script src="./index.js"></script>
   </body>
